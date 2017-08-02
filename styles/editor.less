@@ -59,8 +59,9 @@ atom-text-editor {
 
 atom-text-editor .find-result .region,
 atom-text-editor.editor .find-result .region {
-  background-color: transparent;
-  border: 1px solid @yellow;
+  background-color: fade(@bg2, 30%);
+  //background-color: transparent;
+  border: 1px solid fade(@yellow, 30%);
 }
 
 atom-text-editor.editor .highlights .selection .region {
@@ -69,7 +70,8 @@ atom-text-editor.editor .highlights .selection .region {
 
 atom-text-editor.editor .current-result .region {
   background-color: transparent;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
+  border: 1px solid fade(@yellow, 70%);
 }
 
 .editor--private {
